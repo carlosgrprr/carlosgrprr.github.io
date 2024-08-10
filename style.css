@@ -11,8 +11,8 @@ body, h1, h2, p {
 /* Style the header */
 
 header {
-    background-color: #b30e45c4;
-    color: white;
+    background-color: #59e4fd79;
+    color: black;
     text-align: center;
     padding: 20px;
 } 
@@ -21,7 +21,7 @@ header {
 /* Style the navigation menu */
 nav ul {
     list-style-type: none;
-    background-color: #d751fc;
+    background-color: #d751fcbe;
     text-align: center;
     padding: 10px;
 }
@@ -32,7 +32,7 @@ nav ul li {
 }
 
 nav a {
-    color: white;
+    color:black;
     text-decoration: none;
 }
 
