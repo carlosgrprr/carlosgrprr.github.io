@@ -23,7 +23,7 @@ nav ul {
     list-style-type: none;
     background-color: #d751fcbe;
     text-align: center;
-    padding: 10px;
+    padding: 25px;
 }
 
 nav ul li {
@@ -48,20 +48,20 @@ main {
 /* Style the footer */
 footer {
     text-align: center;
-    background-color: #700f0f;
-    color: white;
+    background-color: #d751fcbe;
+    color: black;
     padding: 10px;
 }
 
 
 #menus {
-    background-color: #f9f9f9;
+    background-color: salmon;
     padding: 20px;
 }
 
 /* Style the recipes section */
 #recipes {
-    background-color: #f8cbcb;
+    background-color: #d751fcbe;
     padding: 20px;
 }
 
