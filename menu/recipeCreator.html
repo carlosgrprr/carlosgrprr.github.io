@@ -17,26 +17,39 @@
             </ul>
         </nav>
     </header>
-    <section id="recipes">
-        <h2>Recipe Creator</h2>
-        <form id="recipe-form">
-            <label for="recipe-name">Recipe Name:</label>
-            <input type="text" id="recipe-name" name="recipe-name" required>
-            
-            <label for="ingredients">Ingredients:</label>
-            <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
-            
-            <label for="instructions">Instructions:</label>
-            <textarea id="instructions" name="instructions" rows="4" required></textarea>
-            
-            <button type="submit">Create Recipe</button>
-        </form>
-        <div id="recipe-list">
-            <!-- Recipes will be displayed here -->
-        </div>
-    </section>
+    <main>
+        <section id="menus">
+            <h2>fruddi MENU creator</h2>
+            <div id="menu-list">
+                <!-- Menus will be dynamically added here using JavaScript -->
+            </div>
+        
+            <!-- Add code to display menus here -->
+        </section>
+        <section id="recipes">
+            <h2>Recipe Creator</h2>
+            <form id="recipe-form">
+                <label for="recipe-name">Recipe Name:</label>
+                <input type="text" id="recipe-name" name="recipe-name" required>
+                
+                <label for="ingredients">Ingredients:</label>
+                <textarea id="ingredients" name="ingredients" rows="4" required></textarea>
+                
+                <label for="instructions">Instructions:</label>
+                <textarea id="instructions" name="instructions" rows="4" required></textarea>
+                
+                <button type="submit">Create Recipe</button>
+            </form>
+            <div id="recipe-list">
+                <!-- Recipes will be displayed here -->
+            </div>
+        </section>
+        
+    </main>
     <footer>
         <p>&copy; 2024 fruddi Creator</p>
     </footer>
+    <script src="script.js"></script>  
+
 </body>
 </html>
